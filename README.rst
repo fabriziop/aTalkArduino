@@ -39,7 +39,8 @@ Features
 * hardware data link drivers API.
 * drivers for serial interface and local software loop included.
 * supported platforms: Linux and Arduino.
-* tested on PC (cpu 64bit), arduino nano (cpu AVR328), NodeMCU (cpu ESP8266).
+* tested on PC (cpu 64bit), arduino nano (cpu AVR328), NodeMCU (cpu ESP8266),
+  NpdeMCU 32s (cpu ESP32).
 
 
 Package structure

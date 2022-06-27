@@ -97,7 +97,7 @@ struct aTalk *atalk_init(uint8_t data_size_max, enum aTalkEncoder encoder) {
 }
 
 
-/* encode and send data on phisical link immediately */
+/* encode and send data on physical link immediately */
 int atalk_send (struct aTalk *atalk, uint8_t *data, uint8_t data_size) {
 
   uint8_t *bmsg;

@@ -11,7 +11,7 @@ Software installation and building requires some C language developement
 tools (C compiler, linker and make) and the Arduino IDE developement tool.
 
 The program running on the Linux system generates random blocks of binary
-data with a randomsize. Since the USB connection to Arduinos behaves like a
+data with a random size. Since the USB connection to Arduinos behaves like a
 serial connection, the program uses aTalk to send each block to the Arduino
 through the USB connection, one block at a time.
 The program running on the Arduino board uses aTalk to receive each block.
@@ -27,7 +27,7 @@ for identity with the original random data that started the trasmission chain.
 The part of this example to be installed on the Linux system can be found
 on *github*. To clone it in a your dir do::
 
-  $ cd <DIR_WHERE_TO_CLONE>
+  $ cd <YOUR_ATALK_ROOT_DIR>
   $ git clone https://github.com/fabriziop/aTalkLinux.git
 
 Alternatively, one can dowload a zip file from *github*: press the green
@@ -37,7 +37,7 @@ selected to be the aTalkLinux root.
 
 Build the example with::
 
-  $ cd <ATALK_ROOT_DIR>
+  $ cd <YOUR_ATALK_ROOT_DIR>
   $ make
 
 
@@ -74,7 +74,7 @@ and wait for upload to complete.
 With the Arduino board already connected to the Linux system, run on the
 Linux system::
 
-  $ cd YOUR_ATALK_ROOT_DIR/examples/
+  $ cd <YOUR_ATALK_ROOT_DIR>/examples/
   $ ./atalk_remote_loop
 
 The program asks for the Arduino connection device, it defaults to
