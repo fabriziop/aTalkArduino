@@ -40,7 +40,7 @@ Features
 * drivers for serial interface and local software loop included.
 * supported platforms: Linux and Arduino.
 * tested on PC (cpu 64bit), arduino nano (cpu AVR328), NodeMCU (cpu ESP8266),
-  NpdeMCU 32s (cpu ESP32).
+  NodeMCU 32s (cpu ESP32), CORE-ESP32 (cpu RISC-V).
 
 
 Package structure
